@@ -11,9 +11,13 @@ const { Member } = db;
 app.use(express.json());
 
 // 간단한 미들웨어 추가해보기
-app.use(function(req, res, next) {
-  console.log(req.query);
-  next();
+// app.use(function(req, res, next) {
+//   console.log(req.query);
+//   next();
+// });
+
+app.get('/', (req, res) => {
+  res.send('URL should contain /api/...');
 });
 
 app.get('/api/members', async (req, res) => {

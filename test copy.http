@@ -1,16 +1,16 @@
-GET https://cowork-kthtim0704-api-app.herokuapp.com/api/members
+GET http://localhost:3000/api/members
 
 ###
-GET https://cowork-kthtim0704-api-app.herokuapp.com/api/members?team=engineering
+GET http://localhost:3000/api/members?team=engineering
 
 ###
-GET https://cowork-kthtim0704-api-app.herokuapp.com/api/members/1
+GET http://localhost:3000/api/members/1
 
 ###
-GET https://cowork-kthtim0704-api-app.herokuapp.com/api/members/100
+GET http://localhost:3000/api/members/100
 
 ###
-POST https://cowork-kthtim0704-api-app.herokuapp.com/api/members
+POST http://localhost:3000/api/members
 Content-Type: application/json
 
 {
@@ -26,7 +26,7 @@ Content-Type: application/json
 }
 
 ###
-PUT https://cowork-kthtim0704-api-app.herokuapp.com/api/members/1
+PUT http://localhost:3000/api/members/1
 Content-Type: application/json
 
 # {
@@ -46,4 +46,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://cowork-kthtim0704-api-app.herokuapp.com/api/members/13
+DELETE http://localhost:3000/api/members/13
